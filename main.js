@@ -25,7 +25,7 @@ const material = new THREE.MeshBasicMaterial({
 const cube = new THREE.Mesh(geometry, material);
 scene.add(cube);
 
-camera.position.z = 5;
+camera.position.z = 1.5;
 
 const controls = new OrbitControls(camera, renderer.domElement);
 
